@@ -1,0 +1,119 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+}
+.header {
+  background-color: #121212;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  justify-items: center;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 200px;
+}
+.nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  margin-top: 50px;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.button {
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+.button i {
+  font-size: 20px;
+}
+.button:hover {
+  background-color: #555;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+.nav ul li a {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+}
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+}
+.highlight-yellow {
+  color: #ffea9f;
+}
+.highlight-pink {
+  color: #ffbbc3;
+}
+.highlight-blue {
+  color: #b6fbff;
+}
+.education {
+  align-items: center;
+  margin-top: 250px;
+  border-radius: 10px;
+  color: white;
+}
+.education h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin: 0 10px 0 0;
+  text-align: left;  
+}
+.education-item {
+  margin-top: 20px;
+  justify-items: left;
+}
+.education-item h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  color: #ffea9f;
+}
+.education-date {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #ffbbc3;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
