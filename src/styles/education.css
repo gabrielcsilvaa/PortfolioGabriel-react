@@ -1,0 +1,61 @@
+.education {
+  position: relative;
+  margin: 40px auto; /* Centraliza horizontalmente */
+  max-width: 600px; /* Define a largura máxima igual à do Hero */
+  color: white;
+  text-align: left; /* Garante alinhamento à esquerda */
+}
+
+.timeline {
+  position: absolute;
+  left: 12px; /* Alinha a linha com o início do ícone */
+  top: 35px; /* Define o ponto de partida abaixo do ícone */
+  bottom: 0;
+  width: 2px;
+  background-color: #fff;
+}
+
+.education h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  display: flex; /* Garante que o ícone e o texto fiquem na mesma linha */
+  align-items: center; /* Alinha verticalmente o ícone com o texto */
+  gap: 10px; /* Espaço entre o ícone e o texto */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.education-item {
+  position: relative;
+  padding-left: 40px; /* Espaço para o alinhamento da timeline */
+  margin-bottom: 40px; /* Espaçamento entre os itens */
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 5px; /* Centraliza o ponto na linha */
+  top: 0; /* Alinha verticalmente no início do texto */
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.education-item h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  color: #ffea9f;
+}
+
+.education-date {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  margin: 0;
+}
+
+.education-item p {
+  margin-top: 5px;
+  color: #FFBBC3;
+}

@@ -1,31 +1,52 @@
+.nav {
+  display: flex; /* Torna os itens flexíveis */
+  margin-bottom: 220px; /* Espaço entre a navbar e o Hero */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente (opcional) */
+  padding: 10px 0; /* Adiciona espaçamento interno */
+}
 
-body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #121212;
-}
-.header {
-  background-color: #121212;
-  padding: 20px;
-  color: white;
-  text-align: center;
-  justify-items: center;
-}
 .nav ul {
   list-style-type: none;
   padding: 0;
-  padding-bottom: 200px;
+  margin: 0; /* Remove margens padrão */
+  display: flex; /* Alinha os itens horizontalmente */
+  gap: 20px; /* Espaço entre os itens */
 }
+
 .nav ul li {
-  display: inline;
-  margin: 0 15px;
+  margin: 0; /* Remove margens adicionais */
 }
+
 .nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  transition: color 0.3s; /* Efeito de transição ao passar o mouse */
 }
+
+.nav ul li a:hover {
+  color: #ffea9f; /* Cor de destaque ao passar o mouse */
+}
+
 .hero {
   margin-top: 50px;
+  margin-bottom: 230px; /* Espaço entre o Hero e o Education */
+  display: flex;
+  flex-direction: column; /* Organiza os itens verticalmente */
+  align-items: center; /* Centraliza todo o conteúdo horizontalmente */
+  text-align: left; /* Garante que o texto fique alinhado à esquerda */
+  max-width: 600px; /* Limita a largura do conteúdo */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+}
+
+.hero p {
+  line-height: 1.5; /* Melhora a legibilidade */
+  margin-bottom: 20px; /* Espaçamento entre o parágrafo e os botões */
+  color: white; /* Garante boa visibilidade no fundo escuro */
 }
 .profile-pic {
   border-radius: 50%;
@@ -33,10 +54,10 @@ body {
   height: 100px;
 }
 .buttons {
-  margin-top: 20px;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: flex-start; /* Alinha os botões à esquerda */
+  gap: 15px; /* Espaço entre os botões */
+  width: 100%; /* Ocupa toda a largura disponível */
 }
 .button {
   background-color: #333;
@@ -77,6 +98,9 @@ body {
 .hero h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 550;
+  margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
+  width: 100%; /* Garante que o texto ocupe todo o espaço do container */
+  color: white;
 }
 .highlight-yellow {
   color: #ffea9f;
@@ -87,33 +111,3 @@ body {
 .highlight-blue {
   color: #b6fbff;
 }
-.education {
-  align-items: center;
-  margin-top: 250px;
-  border-radius: 10px;
-  color: white;
-}
-.education h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  margin: 0 10px 0 0;
-  text-align: left;  
-}
-.education-item {
-  margin-top: 20px;
-  justify-items: left;
-}
-.education-item h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  margin: 0;
-  color: #ffea9f;
-}
-.education-date {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  color: #ffbbc3;
-  margin: 0 0 10px;
-  text-align: left;
-}
-

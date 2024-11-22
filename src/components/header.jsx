@@ -1,11 +1,5 @@
 import '../styles/header.css';
-import {
-  FaLinkedin,
-  FaGithub,
-  FaEnvelope,
-  FaFileAlt,
-  FaGraduationCap,
-} from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 function Header() {
   return (
     <header className='header'>
@@ -52,23 +46,6 @@ function Header() {
           </a>
         </div>
       </div>
-      <section id='education' className='education'>
-        <h2>
-          <FaGraduationCap /> Education
-        </h2>
-        <div className='education-item'>
-          <p className='education-date'>Ensino Medio Completo</p>
-          <h3>EEFM José Bezerra de Menezes – Ensino Médio Completo</h3>
-          <p>nao sei oq botar aqui</p>
-        </div>
-        <div className='education-item'>
-          <p className='education-date'>Janeiro de 2024 - Atual</p>
-          <h3>
-            Uninassau – Cursando Analise e Desenvolvimento de Sistemas (ADS)
-          </h3>
-          <p>Focusing on Programming languages.</p>
-        </div>
-      </section>
     </header>
   );
 }
