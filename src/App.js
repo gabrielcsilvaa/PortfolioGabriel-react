@@ -3,6 +3,7 @@ import Header from './components/header';
 import Education from './components/education';
 import Languages from './components/languages';
 import Skills from './components/skills';
+import Experience from './components/experience';
 function App() {
   return (
     <div className='App'>
@@ -11,6 +12,7 @@ function App() {
       <Education />
       <Languages />
       <Skills />
+      <Experience />
     </div>
   );
 }
