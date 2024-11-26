@@ -48,6 +48,7 @@ function Skills() {
         <h3>Package Managers:</h3>
         <div className='tags'>
           <span className='tag'>NPM</span>
+          <span className='tag'>PIP</span>
         </div>
       </div>
     </div>
