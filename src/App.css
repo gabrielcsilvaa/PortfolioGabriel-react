@@ -4,3 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.App {
+  display: flex;
+  flex-direction: column; /* Alinha os componentes verticalmente */
+  align-items: center; /* Centraliza os componentes horizontalmente */
+  padding: 20px;
+  background-color: #121212;
+}

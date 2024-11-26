@@ -1,0 +1,81 @@
+.languages {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: left; /* Centraliza horizontalmente */
+    padding: 20px;
+    margin-bottom: 50px; /* Espaço entre Languages e o próximo componente */
+    color: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; /* Limita a largura do componente */
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  .languages h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: left;
+    color: white;
+  }
+  
+  .languages h2 svg {
+    margin-right: 10px;
+  }
+  
+  .language {
+    margin-bottom: 20px;
+    width: 100%; /* Ocupa toda a largura disponível */
+  }
+  
+  .language span {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .line {
+    height: 4px;
+    background-color: #FFEA9F;
+  }
+  
+  .native {
+    width: 100%;
+  }
+  
+  .proficiency {
+    width: 70%;
+  }
+  
+  .beginner {
+    width: 40%;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .highlight-yellow {
+    color: #ffea9f;
+  }
+  
+  .highlight-pink {
+    color: #ffbbc3;
+  }
+  
+  .highlight-blue {
+    color: #b6fbff;
+  }
