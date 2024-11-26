@@ -1,13 +1,13 @@
 .languages {
     display: flex;
-    flex-direction: column; /* Alinha os itens verticalmente */
-    align-items: left; /* Centraliza horizontalmente */
+    flex-direction: column; 
+    align-items: left; 
     padding: 20px;
-    margin-bottom: 50px; /* Espaço entre Languages e o próximo componente */
+    margin-bottom: 50px; 
     color: #ffffff;
     border-radius: 8px;
     width: 100%;
-    max-width: 600px; /* Limita a largura do componente */
+    max-width: 600px; 
     margin-left: auto; 
     margin-right: auto;
   }
@@ -26,7 +26,7 @@
   
   .language {
     margin-bottom: 20px;
-    width: 100%; /* Ocupa toda a largura disponível */
+    width: 100%; 
   }
   
   .language span {

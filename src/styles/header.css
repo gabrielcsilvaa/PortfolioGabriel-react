@@ -1,21 +1,21 @@
 .nav {
-  display: flex; /* Torna os itens flexíveis */
-  margin-bottom: 220px; /* Espaço entre a navbar e o Hero */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente (opcional) */
-  padding: 10px 0; /* Adiciona espaçamento interno */
+  display: flex; 
+  margin-bottom: 220px; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px 0; 
 }
 
 .nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; /* Remove margens padrão */
-  display: flex; /* Alinha os itens horizontalmente */
-  gap: 20px; /* Espaço entre os itens */
+  margin: 0; 
+  display: flex; 
+  gap: 20px; 
 }
 
 .nav ul li {
-  margin: 0; /* Remove margens adicionais */
+  margin: 0; 
 }
 
 .nav ul li a {
@@ -24,29 +24,29 @@
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  transition: color 0.3s; /* Efeito de transição ao passar o mouse */
+  transition: color 0.3s; 
 }
 
 .nav ul li a:hover {
-  color: #ffea9f; /* Cor de destaque ao passar o mouse */
+  color: #ffea9f; 
 }
 
 .hero {
   margin-top: 50px;
-  margin-bottom: 230px; /* Espaço entre o Hero e o Education */
+  margin-bottom: 230px; 
   display: flex;
-  flex-direction: column; /* Organiza os itens verticalmente */
-  align-items: center; /* Centraliza todo o conteúdo horizontalmente */
-  text-align: left; /* Garante que o texto fique alinhado à esquerda */
-  max-width: 600px; /* Limita a largura do conteúdo */
-  margin-left: auto; /* Centraliza horizontalmente */
-  margin-right: auto; /* Centraliza horizontalmente */
+  flex-direction: column; 
+  align-items: left; 
+  text-align: left; 
+  max-width: 600px; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .hero p {
-  line-height: 1.5; /* Melhora a legibilidade */
-  margin-bottom: 20px; /* Espaçamento entre o parágrafo e os botões */
-  color: white; /* Garante boa visibilidade no fundo escuro */
+  line-height: 1.5; 
+  margin-bottom: 20px; 
+  color: white; 
 }
 .profile-pic {
   border-radius: 50%;
@@ -55,9 +55,9 @@
 }
 .buttons {
   display: flex;
-  justify-content: flex-start; /* Alinha os botões à esquerda */
-  gap: 15px; /* Espaço entre os botões */
-  width: 100%; /* Ocupa toda a largura disponível */
+  justify-content: flex-start; 
+  gap: 15px; 
+  width: 100%; 
 }
 .button {
   background-color: #333;
@@ -98,8 +98,8 @@
 .hero h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 550;
-  margin-bottom: 10px; /* Espaço entre o título e o parágrafo */
-  width: 100%; /* Garante que o texto ocupe todo o espaço do container */
+  margin-bottom: 10px; 
+  width: 100%; 
   color: white;
 }
 .highlight-yellow {
@@ -110,4 +110,10 @@
 }
 .highlight-blue {
   color: #b6fbff;
+}
+.foto {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%;
+  object-fit: cover; 
 }

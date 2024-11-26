@@ -20,6 +20,7 @@ function Header() {
         </ul>
       </nav>
       <div className='hero'>
+        <img className='foto' src='/images/foto.jpeg' alt='' />
         <h1>Oi, eu sou o Gabriel</h1>
         <p>
           <span className='highlight-yellow'>
