@@ -1,15 +1,15 @@
 .education {
   position: relative;
-  margin: 40px auto; /* Centraliza horizontalmente */
-  max-width: 600px; /* Define a largura máxima igual à do Hero */
+  margin: 40px auto; 
+  max-width: 600px; 
   color: white;
-  text-align: left; /* Garante alinhamento à esquerda */
+  text-align: left; 
 }
 
 .timeline {
   position: absolute;
-  left: 12px; /* Alinha a linha com o início do ícone */
-  top: 35px; /* Define o ponto de partida abaixo do ícone */
+  left: 12px;
+  top: 35px; 
   bottom: 0;
   width: 2px;
   background-color: #fff;
@@ -18,22 +18,22 @@
 .education h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  display: flex; /* Garante que o ícone e o texto fiquem na mesma linha */
-  align-items: center; /* Alinha verticalmente o ícone com o texto */
-  gap: 10px; /* Espaço entre o ícone e o texto */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  margin-bottom: 20px; 
 }
 
 .education-item {
   position: relative;
-  padding-left: 40px; /* Espaço para o alinhamento da timeline */
-  margin-bottom: 40px; /* Espaçamento entre os itens */
+  padding-left: 40px; 
+  margin-bottom: 40px; 
 }
 
 .timeline-dot {
   position: absolute;
-  left: 5px; /* Centraliza o ponto na linha */
-  top: 0; /* Alinha verticalmente no início do texto */
+  left: 5px; 
+  top: 0; 
   width: 12px;
   height: 12px;
   background-color: #fff;

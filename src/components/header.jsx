@@ -41,7 +41,7 @@ function Header() {
           <a href='mailto:gabrielcardososilva290@gmail.com' className='button'>
             <FaEnvelope /> Email
           </a>
-          <a href='/public/' className='button'>
+          <a href='/images/Currículo Gabriel Cardoso.pdf' className='button'>
             <FaFileAlt /> CV
           </a>
         </div>
