@@ -24,6 +24,34 @@ function Projects() {
             <FaGithub className='icon' /> GitHub
           </a>
         </div>
+        <h3 className='project-name'>TESTE</h3>
+        <p className='project-description'>
+          Developed an interactive web application using Astro and Tailwind.
+          Designed to be a reflective space for personal and professional
+          growth, with a focus on simplicity and minimalism.
+        </p>
+        <div className='project-links'>
+          <a
+            href='https://github.com/gabrielcsilvaa/PortfolioGabriel-react'
+            className='project-link'
+          >
+            <FaGithub className='icon' /> GitHub
+          </a>
+        </div>
+        <h3 className='project-name'>TESTE</h3>
+        <p className='project-description'>
+          Developed an interactive web application using Astro and Tailwind.
+          Designed to be a reflective space for personal and professional
+          growth, with a focus on simplicity and minimalism.
+        </p>
+        <div className='project-links'>
+          <a
+            href='https://github.com/gabrielcsilvaa/PortfolioGabriel-react'
+            className='project-link'
+          >
+            <FaGithub className='icon' /> GitHub
+          </a>
+        </div>
       </div>
     </div>
   );
