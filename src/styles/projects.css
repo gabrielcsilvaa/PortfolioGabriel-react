@@ -1,0 +1,63 @@
+.projects-container {
+  color: #ffffff;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.projects-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFEA9F; /* Amarelo */
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-link {
+  background-color: transparent;
+  border: 1px solid #aaaaaa;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #444444;
+  border-color: #ffffff;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 16px;
+}
