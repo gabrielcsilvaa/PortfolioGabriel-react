@@ -12,10 +12,13 @@ function Experience() {
           <span className='date-range'>July 2024 - Current</span>
           <h3>Office Contábil - Developer - Fullstack</h3>
           <p>
-            Work on the development of pages and landing pages using tools such
-            as HTML, CSS, JavaScript and WordPress, and maintain and present
-            reports, and visualizations to provide insights and recommendations
-            based on analysis performed.
+            Trabalho no desenvolvimento de um dashboard de clientes utilizando
+            React, Tailwind CSS e Node.js. Realizo automações com Python e
+            Selenium para extrair e gerenciar dados de cupons, como identificar
+            empresas próximas ao evento 380. Também implementei funcionalidades
+            como filtros por severidade, paginação personalizada e integração de
+            gráficos com dados financeiros, garantindo usabilidade e insights
+            práticos para o sistema.
           </p>
           <button className='reference-button'>Reference Letter →</button>
         </section>

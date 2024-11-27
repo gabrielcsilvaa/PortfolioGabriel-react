@@ -27,8 +27,11 @@ function Header() {
             <span className='highlight-yellow'>
               Motivado e adaptável, ansioso para contribuir e aprender.
             </span>
-            <span className='highlight-pink'> Desenvolvedor Full Stack.</span>
-            <span className='highlight-blue'> teste.</span>
+            <span className='highlight-pink'> Desenvolvedor Full Stack. </span>
+            <span className='highlight-blue'>
+              Busco colaborar e aplicar meu conhecimento em áreas que exigem
+              criatividade e resolução de desafios.
+            </span>
           </p>
         </section>
         <div className='buttons'>
@@ -41,7 +44,7 @@ function Header() {
           <a href='https://github.com/gabrielcsilvaa' className='button'>
             <FaGithub /> GitHub
           </a>
-          <a href='mailto:gabrielcardososilva290@gmail.com' className='button'>
+          <a href='gabrielcardososilva290@gmail.com' className='button'>
             <FaEnvelope /> Email
           </a>
           <a href='/images/Currículo Gabriel Cardoso.pdf' className='button'>
