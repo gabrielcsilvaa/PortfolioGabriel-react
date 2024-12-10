@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfoliogabriel/static/css/main.041e6aeb.css",
+    "main.js": "/portfoliogabriel/static/js/main.e1e0e4a0.js",
+    "static/media/Poppins-Regular.ttf": "/portfoliogabriel/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/portfoliogabriel/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "index.html": "/portfoliogabriel/index.html",
+    "main.041e6aeb.css.map": "/portfoliogabriel/static/css/main.041e6aeb.css.map",
+    "main.e1e0e4a0.js.map": "/portfoliogabriel/static/js/main.e1e0e4a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041e6aeb.css",
+    "static/js/main.e1e0e4a0.js"
+  ]
+}
