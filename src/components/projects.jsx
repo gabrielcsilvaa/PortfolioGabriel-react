@@ -16,6 +16,11 @@ function Projects() {
           Projetado para ser um espaço reflexivo para o crescimento pessoal e
           profissional, com foco na simplicidade e no minimalismo.
         </p>
+        <img
+          src='/images/arte.png'
+          alt='Arte do projeto'
+          className='project-image'
+        />
         <div className='project-links'>
           <a
             href='https://github.com/gabrielcsilvaa/PortfolioGabriel-react'
@@ -31,6 +36,11 @@ function Projects() {
           visualização e filtragem de dados em tempo real, com funcionalidades
           como paginacão, filtro por severidade e ordenamento dinâmico.
         </p>
+        <img
+          src='/images/port.png'
+          alt='Arte do projeto2'
+          className='project-image'
+        />
         <div className='project-links'>
           <a
             href='https://github.com/gabrielcsilvaa/ProjectWorkDashboard-react.git'
