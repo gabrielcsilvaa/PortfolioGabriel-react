@@ -16,54 +16,62 @@ function Projects() {
           Projetado para ser um espaço reflexivo para o crescimento pessoal e
           profissional, com foco na simplicidade e no minimalismo.
         </p>
-        <img
-          src='/images/arte.png'
-          alt='Arte do projeto'
-          className='project-image'
-        />
-        <div className='project-links'>
+        <div className='project-image-container'>
+          <img
+            src='/images/arte.png'
+            alt='Arte do projeto'
+            className='project-image'
+          />
           <a
             href='https://github.com/gabrielcsilvaa/PortfolioGabriel-react'
-            className='project-link'
+            className='project-icon-link'
           >
-            <FaGithub className='icon' /> GitHub
+            <FaGithub className='github-icon' />
           </a>
         </div>
+      </div>
+      <div className='project-item'>
         <h3 className='project-name'>Dashboard de Clientes Office</h3>
         <p className='project-description'>
           Desenvolvi um dashboard interativo para gerenciamento de clientes,
           utilizando React, Node.js e PostgreSQL. A aplicação permite a
           visualização e filtragem de dados em tempo real, com funcionalidades
-          como paginacão, filtro por severidade e ordenamento dinâmico.
+          como paginação, filtro por severidade e ordenamento dinâmico.
         </p>
-        <img
-          src='/images/port.png'
-          alt='Arte do projeto2'
-          className='project-image'
-        />
-        <div className='project-links'>
+        <div className='project-image-container'>
+          <img
+            src='/images/port.png'
+            alt='Arte do projeto2'
+            className='project-image'
+          />
           <a
             href='https://github.com/gabrielcsilvaa/ProjectWorkDashboard-react.git'
-            className='project-link'
+            className='project-icon-link'
           >
-            <FaGithub className='icon' /> GitHub
+            <FaGithub className='github-icon' />
           </a>
         </div>
+      </div>
+      <div className='project-item'>
         <h3 className='project-name'>Automação de Consultas CNPJ</h3>
         <p className='project-description'>
-          Entendi! Aqui está o resumo do seu projeto de dashboard, no estilo que
-          você pediu: Desenvolvi um dashboard interativo utilizando React,
-          Node.js e PostgreSQL, focado na visualização e gerenciamento de dados
-          de clientes. A aplicação permite filtros dinâmicos, ordenação e
+          Desenvolvi um dashboard interativo utilizando React, Node.js e
+          PostgreSQL, focado na visualização e gerenciamento de dados de
+          clientes. A aplicação permite filtros dinâmicos, ordenação e
           atualização em tempo real, com design adaptável ao modo claro e
           escuro.
         </p>
-        <div className='project-links'>
+        <div className='project-image-container'>
+          <img
+            src='/images/automo.png'
+            alt='Arte do projeto3'
+            className='project-image'
+          />
           <a
             href='https://github.com/gabrielcsilvaa/automacaoConsultaCnpj.git'
-            className='project-link'
+            className='project-icon-link'
           >
-            <FaGithub className='icon' /> GitHub
+            <FaGithub className='github-icon' />
           </a>
         </div>
       </div>

@@ -8,7 +8,7 @@ function Languages() {
         <LuLanguages /> Languages
       </h2>
       <div className='language'>
-        <span>Português - Native</span>
+        <span>Português - Nativo</span>
         <div className='line native'></div>
       </div>
       <div className='language'>

@@ -34,30 +34,39 @@
   margin-bottom: 15px;
 }
 
-.project-links {
-  display: flex;
-  gap: 10px;
+.project-image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 600px;
+  margin: 0 auto 20px;
 }
 
-.project-link {
-  background-color: transparent;
-  border: 1px solid #aaaaaa;
+.project-image{
+  width: 112%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  align-items: end;
+}
+
+.github-icon {
+  position: absolute;
+  top: 10px; /* Ajuste conforme necessário */
+  font-size: 29px;
   color: #ffffff;
-  padding: 5px 15px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 14px;
-  display: inline-flex;
-  align-items: center;
-  transition: background-color 0.3s, color 0.3s;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  padding: 8px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.project-link:hover {
-  background-color: #444444;
-  border-color: #ffffff;
+.github-icon:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000000;
 }
 
-.icon {
-  margin-right: 5px;
-  font-size: 16px;
+.project-icon-link {
+  text-decoration: none;
 }
