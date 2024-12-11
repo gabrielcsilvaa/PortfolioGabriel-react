@@ -1,6 +1,20 @@
 import '../styles/header.css';
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from 'react-icons/fa';
+
 function Header() {
+  // Função para copiar o e-mail
+  const copiarEmail = () => {
+    const email = 'gabrielcardososilva290@gmail.com'; // O e-mail a ser copiado
+    navigator.clipboard
+      .writeText(email)
+      .then(() => {
+        alert('E-mail copiado com sucesso!');
+      })
+      .catch(() => {
+        alert('Erro ao copiar o e-mail.');
+      });
+  };
+
   return (
     <header className='header'>
       <nav className='nav'>
@@ -44,9 +58,9 @@ function Header() {
           <a href='https://github.com/gabrielcsilvaa' className='button'>
             <FaGithub /> GitHub
           </a>
-          <a href='gabrielcardososilva290@gmail.com' className='button'>
+          <button onClick={copiarEmail} className='button'>
             <FaEnvelope /> Email
-          </a>
+          </button>
           <a href='/images/Currículo Gabriel Cardoso.pdf' className='button'>
             <FaFileAlt /> CV
           </a>
@@ -55,4 +69,5 @@ function Header() {
     </header>
   );
 }
+
 export default Header;

@@ -37,6 +37,7 @@
 .project-image-container {
   position: relative;
   display: inline-block;
+  height: auto;
   max-width: 600px;
   margin: 0 auto 20px;
 }
