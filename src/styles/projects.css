@@ -24,7 +24,7 @@
 .project-name {
   font-size: 18px;
   font-weight: bold;
-  color: #FFEA9F; /* Amarelo */
+  color: #ffea9f; /* Amarelo */
   margin-bottom: 10px;
 }
 
@@ -42,7 +42,7 @@
   margin: 0 auto 20px;
 }
 
-.project-image{
+.project-image {
   width: 112%;
   height: auto;
   border-radius: 8px;
@@ -59,7 +59,9 @@
   background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
   padding: 8px;
   border-radius: 50%;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .github-icon:hover {
@@ -70,4 +72,7 @@
 
 .project-icon-link {
   text-decoration: none;
+}
+.autoral{
+  text-align: center;
 }

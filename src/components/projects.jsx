@@ -74,6 +74,9 @@ function Projects() {
             <FaGithub className='github-icon' />
           </a>
         </div>
+        <div className='autoral'>
+          <span>Created by Gabriel Cardoso</span>
+        </div>
       </div>
     </div>
   );
