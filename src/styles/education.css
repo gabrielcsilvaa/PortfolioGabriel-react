@@ -1,15 +1,15 @@
 .education {
   position: relative;
-  margin: 40px auto; 
-  max-width: 600px; 
+  margin: 40px auto;
+  max-width: 600px;
   color: white;
-  text-align: left; 
+  text-align: left;
 }
 
 .timeline {
   position: absolute;
   left: 12px;
-  top: 65px; 
+  top: 65px;
   bottom: 0;
   width: 2px;
   background-color: #fff;
@@ -18,22 +18,22 @@
 .education h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  display: flex; 
-  align-items: center; 
-  gap: 11px; 
-  margin-bottom: 20px; 
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 20px;
 }
 
 .education-item {
   position: relative;
-  padding-left: 40px; 
-  margin-bottom: 40px; 
+  padding-left: 40px;
+  margin-bottom: 40px;
 }
 
 .timeline-dot {
   position: absolute;
-  left: 6px; 
-  top: 0; 
+  left: 6px;
+  top: 0;
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -57,5 +57,11 @@
 
 .education-item p {
   margin-top: 5px;
-  color: #FFBBC3;
+  color: #ffbbc3;
+}
+
+@media (max-width: 768px) {
+  .timeline-dot {
+    left: -5px;
+  }
 }
