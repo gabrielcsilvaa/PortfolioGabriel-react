@@ -1,10 +1,10 @@
 import '../styles/header.css';
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from 'react-icons/fa';
+import process from 'process';
 
 function Header() {
-  // Função para copiar o e-mail
   const copiarEmail = () => {
-    const email = 'gabrielcardososilva290@gmail.com'; // O e-mail a ser copiado
+    const email = 'gabrielcardososilva290@gmail.com';
     navigator.clipboard
       .writeText(email)
       .then(() => {
@@ -35,7 +35,11 @@ function Header() {
       </nav>
       <div className='hero'>
         <section id='about'>
-          <img className='foto' src='/images/foto.jpeg' alt='' />
+          <img
+            className='foto'
+            src={`${process.env.PUBLIC_URL}/images/foto.jpeg`}
+            alt=''
+          />
           <h1>Oi, eu sou o Gabriel</h1>
           <p>
             <span className='highlight-yellow'>
@@ -61,7 +65,10 @@ function Header() {
           <button onClick={copiarEmail} className='button'>
             <FaEnvelope /> Email
           </button>
-          <a href='/images/Currículo Gabriel Cardoso.pdf' className='button'>
+          <a
+            href={`${process.env.PUBLIC_URL}/images/Currículo Gabriel Cardoso.pdf`}
+            className='button'
+          >
             <FaFileAlt /> CV
           </a>
         </div>

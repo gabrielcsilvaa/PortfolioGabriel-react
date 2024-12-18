@@ -1,5 +1,6 @@
 import '../styles/projects.css';
 import { FaCode, FaGithub } from 'react-icons/fa';
+import process from 'process';
 
 function Projects() {
   return (
@@ -18,8 +19,8 @@ function Projects() {
         </p>
         <div className='project-image-container'>
           <img
-            src='/images/arte.png'
-            alt='Arte do projeto'
+            src={`${process.env.PUBLIC_URL}/images/arte.png`}
+            alt=''
             className='project-image'
           />
           <a
@@ -40,7 +41,7 @@ function Projects() {
         </p>
         <div className='project-image-container'>
           <img
-            src='/images/port.png'
+            src={`${process.env.PUBLIC_URL}/images/port.png`}
             alt='Arte do projeto2'
             className='project-image'
           />
@@ -63,7 +64,7 @@ function Projects() {
         </p>
         <div className='project-image-container'>
           <img
-            src='/images/automo.png'
+            src={`${process.env.PUBLIC_URL}/images/automo.png`}
             alt='Arte do projeto3'
             className='project-image'
           />
