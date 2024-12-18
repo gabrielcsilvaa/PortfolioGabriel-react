@@ -4,10 +4,35 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .App {
   display: flex;
-  flex-direction: column; /* Alinha os componentes verticalmente */
-  align-items: center; /* Centraliza os componentes horizontalmente */
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
   background-color: #121212;
+}
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .experience,
+  .projects,
+  .skills,
+  .education,
+  .languages {
+    width: 100%;
+    padding: 10px;
+  }
 }
