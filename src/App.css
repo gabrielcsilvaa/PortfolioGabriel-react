@@ -18,9 +18,18 @@ body {
   }
 
   header {
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+  }
+
+  .hero {
+    width: 400px;
+  }
+
+  .timeline-dot{
+    left: 8px;
   }
 
   h1 {
