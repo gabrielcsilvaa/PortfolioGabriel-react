@@ -2,23 +2,23 @@ html {
   scroll-behavior: smooth;
 }
 .nav {
-  display: flex; 
-  margin-bottom: 220px; 
-  justify-content: center; 
-  align-items: center; 
-  padding: 10px 0; 
+  display: flex;
+  margin-bottom: 220px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; 
-  display: flex; 
-  gap: 20px; 
+  margin: 0;
+  display: flex;
+  gap: 20px;
 }
 
 .nav ul li {
-  margin: 0; 
+  margin: 0;
 }
 
 .nav ul li a {
@@ -27,29 +27,29 @@ html {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .nav ul li a:hover {
-  color: #ffea9f; 
+  color: #ffea9f;
 }
 
 .hero {
   margin-top: 50px;
-  margin-bottom: 230px; 
+  margin-bottom: 230px;
   display: flex;
-  flex-direction: column; 
-  align-items: left; 
-  text-align: left; 
-  max-width: 600px; 
-  margin-left: auto; 
-  margin-right: auto; 
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero p {
-  line-height: 1.5; 
-  margin-bottom: 20px; 
-  color: white; 
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: white;
 }
 .profile-pic {
   border-radius: 50%;
@@ -58,9 +58,9 @@ html {
 }
 .buttons {
   display: flex;
-  justify-content: flex-start; 
-  gap: 15px; 
-  width: 100%; 
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
 }
 .button {
   background-color: #333;
@@ -92,6 +92,17 @@ html {
   font-weight: 700;
   font-style: normal;
 }
+@media (max-width: 768px) {
+  .buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+  }
+
+  .button:last-child {
+    margin-top: 10px; 
+  }
+}
 .nav ul li a {
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -101,8 +112,8 @@ html {
 .hero h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 550;
-  margin-bottom: 10px; 
-  width: 100%; 
+  margin-bottom: 10px;
+  width: 100%;
   color: white;
 }
 .highlight-yellow {
@@ -115,8 +126,8 @@ html {
   color: #b6fbff;
 }
 .foto {
-  width: 80px; 
-  height: 80px; 
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  object-fit: cover; 
+  object-fit: cover;
 }
