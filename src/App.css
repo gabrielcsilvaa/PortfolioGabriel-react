@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #121212;
+  background-color: #0d0d0d; /* Fundo mais escuro para contraste */
   margin: 0;
   padding: 0;
 }
@@ -10,8 +10,9 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #121212;
+  
 }
+
 @media (max-width: 768px) {
   .App {
     padding: 10px;
@@ -41,3 +42,4 @@ body {
     padding: 10px;
   }
 }
+  

@@ -55,11 +55,18 @@ function Header() {
         <div className='buttons'>
           <a
             href='https://www.linkedin.com/in/gabrielprogamacao?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+            target='_blank'
             className='button'
+            rel='noreferrer'
           >
             <FaLinkedin /> LinkedIn
           </a>
-          <a href='https://github.com/gabrielcsilvaa' className='button'>
+          <a
+            href='https://github.com/gabrielcsilvaa'
+            target='_blank'
+            className='button'
+            rel='noreferrer'
+          >
             <FaGithub /> GitHub
           </a>
           <button onClick={copiarEmail} className='button'>
@@ -67,7 +74,9 @@ function Header() {
           </button>
           <a
             href={`${process.env.PUBLIC_URL}/images/Currículo Gabriel Cardoso.pdf`}
+            target='_blank'
             className='button'
+            rel='noreferrer'
           >
             <FaFileAlt /> CV
           </a>

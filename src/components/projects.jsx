@@ -25,7 +25,9 @@ function Projects() {
           />
           <a
             href='https://github.com/gabrielcsilvaa/PortfolioGabriel-react'
+            target='_blank'
             className='project-icon-link'
+            rel='noreferrer'
           >
             <FaGithub className='github-icon' />
           </a>
@@ -47,7 +49,9 @@ function Projects() {
           />
           <a
             href='https://github.com/gabrielcsilvaa/ProjectWorkDashboard-react.git'
+            target='_blank'
             className='project-icon-link'
+            rel='noreferrer'
           >
             <FaGithub className='github-icon' />
           </a>
@@ -70,9 +74,48 @@ function Projects() {
           />
           <a
             href='https://github.com/gabrielcsilvaa/automacaoConsultaCnpj.git'
+            target='_blank'
             className='project-icon-link'
+            rel='noreferrer'
           >
             <FaGithub className='github-icon' />
+          </a>
+          <h2 className='projects-title'>
+            <FaCode className='projects-icon' /> More projects developed
+          </h2>
+          <h3 className='project-name'>
+            Sistema de Inserção Automática de Dados
+          </h3>
+          <p className='project-description'>
+            Desenvolvi uma aplicação full-stack para automatizar a inserção de
+            dados em um banco de dados PostgreSQL, utilizando Node.js e NestJS.
+            O projeto garante uma gestão eficiente e precisa dos dados,
+            aproveitando o Prisma ORM para interações simples e confiáveis com o
+            banco. O sistema foi projetado para ser escalável e manter a
+            integridade dos dados, facilitando operações otimizadas para
+            implementações futuras
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
+          <h3 className='project-name'>Tela de Carregamento em Python</h3>
+          <p className='project-description'>
+            Desenvolvimento de uma tela de carregamento personalizada utilizando
+            Python. O projeto inclui animações fluidas e integração com sistemas
+            existentes, oferecendo uma experiência visualmente atraente e
+            funcional durante processos de inicialização ou espera. Ideal para
+            aplicações que buscam melhorar a interação com o usuário.
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/python_loading_screen.git'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
           </a>
         </div>
         <div className='autoral'>

@@ -73,6 +73,17 @@
 .project-icon-link {
   text-decoration: none;
 }
-.autoral{
+.autoral {
   text-align: center;
+}
+.tag {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tag:hover {
+  background-color: #555;
 }
