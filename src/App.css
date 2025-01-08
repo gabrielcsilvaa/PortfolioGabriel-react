@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom right, #0d1117, #10141b, #14171f);
+  background: radial-gradient(circle at top, #0d1117, #10141b, #121212);
   min-height: 100vh;
   color: white;
   font-family: Poppins;
