@@ -1,16 +1,14 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #0d0d0d; /* Fundo mais escuro para contraste */
-  margin: 0;
-  padding: 0;
+  background: linear-gradient(to bottom right, #0d1117, #141a29, #0f1015);
+  min-height: 100vh;
+  color: white;
+  font-family: Arial, sans-serif;
 }
-
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  
 }
 
 @media (max-width: 768px) {
@@ -42,4 +40,3 @@ body {
     padding: 10px;
   }
 }
-  
