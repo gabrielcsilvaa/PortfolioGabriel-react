@@ -1,14 +1,15 @@
 body {
-  background: linear-gradient(to bottom right, #0d1117, #141a29, #0f1015);
+  background: linear-gradient(to bottom right, #0d1117, #10141b, #14171f);
   min-height: 100vh;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: Poppins;
 }
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+
 }
 
 @media (max-width: 768px) {
