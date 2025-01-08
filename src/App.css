@@ -1,6 +1,6 @@
 body {
-  background: radial-gradient(circle at top, #0d1117, #10141b, #121212);
-  min-height: 100vh;
+  background: radial-gradient(circle at top,#0d1117, #141a29, #0f1015);
+  min-height: 20vh;
   color: white;
   font-family: Poppins;
 }
