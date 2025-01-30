@@ -86,18 +86,6 @@ function Projects() {
           <h2 className='projects-title'>
             <FaCode className='projects-icon' /> More projects developed
           </h2>
-          <h3 className='project-name'>
-            Sistema de Inserção Automática de Dados
-          </h3>
-          <p className='project-description'>
-            Desenvolvi uma aplicação full-stack para automatizar a inserção de
-            dados em um banco de dados PostgreSQL para utilizar os dados no
-            Dashboard de Clientes Office, utilizando Node.js e NestJS. O projeto
-            garante uma gestão eficiente e precisa dos dados, aproveitando o
-            Prisma ORM para interações simples e confiáveis com o banco. O
-            sistema foi projetado para ser escalável e manter a integridade dos
-            dados, facilitando operações otimizadas para implementações futuras
-          </p>
           <a
             href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
             target='_blank'
@@ -115,6 +103,18 @@ function Projects() {
             robô e a inserção de dados, até a navegação no sistema para validar,
             recusar ou confirmar notas, otimizando o processo manual e
             tratamento de exceções para evitar falhas no fluxo.
+          </p>
+          <h3 className='project-name'>
+            Sistema de Inserção Automática de Dados
+          </h3>
+          <p className='project-description'>
+            Desenvolvi uma aplicação full-stack para automatizar a inserção de
+            dados em um banco de dados PostgreSQL para utilizar os dados no
+            Dashboard de Clientes Office, utilizando Node.js e NestJS. O projeto
+            garante uma gestão eficiente e precisa dos dados, aproveitando o
+            Prisma ORM para interações simples e confiáveis com o banco. O
+            sistema foi projetado para ser escalável e manter a integridade dos
+            dados, facilitando operações otimizadas para implementações futuras
           </p>
           <a
             href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
