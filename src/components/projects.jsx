@@ -98,7 +98,7 @@ function Projects() {
             tratamento de exceções para evitar falhas no fluxo.
           </p>
           <a
-            href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
+            href='https://github.com/gabrielcsilvaa/RoboIssFortaleza.git'
             target='_blank'
             rel='noopener noreferrer'
           >
