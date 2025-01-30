@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(circle at top,#0d1117, #141a29, #0f1015);
+  background: linear-gradient(to bottom, #0d1117, #141a29, #0f1015);
   min-height: 20vh;
   color: white;
   font-family: Poppins;
@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-
 }
 
 @media (max-width: 768px) {

@@ -13,9 +13,10 @@ function Projects() {
       <div className='project-item'>
         <h3 className='project-name'>Personal Portfolio</h3>
         <p className='project-description'>
-          Desenvolvi uma aplicação web interativa usando React e JavaScript.
-          Projetado meu portfolio para o meu crescimento pessoal e profissional,
-          com foco na simplicidade e no minimalismo.
+          Criei um portfólio interativo usando React e JavaScript para
+          apresentar meus projetos e habilidades. O design é focado em
+          simplicidade e funcionalidade, refletindo meu estilo de
+          desenvolvimento.
         </p>
         <div className='project-image-container'>
           <img
@@ -61,12 +62,12 @@ function Projects() {
       <div className='project-item'>
         <h3 className='project-name'>Automação de Consultas CNPJ</h3>
         <p className='project-description'>
-          Este projeto envolve o desenvolvimento de uma automação que consulta
-          informações sobre empresas a partir do CNPJ fornecido. A automação
-          acessa um site específico para coletar dados como a quantidade de
-          sócios, se a empresa é optante pelo Simples Nacional e outras
-          informações relevantes sobre a empresa. Esses dados são então
-          processados e inseridos no banco de dados da empresa em que trabalho.
+          Desenvolvi uma automação que consulta informações sobre empresas a
+          partir do CNPJ fornecido. A automação acessa um site específico para
+          coletar dados como a quantidade de sócios, se a empresa é optante pelo
+          Simples Nacional e outras informações relevantes sobre a empresa.
+          Esses dados são então processados e inseridos no banco de dados da
+          empresa.
         </p>
         <div className='project-image-container'>
           <img
@@ -96,6 +97,24 @@ function Projects() {
             Prisma ORM para interações simples e confiáveis com o banco. O
             sistema foi projetado para ser escalável e manter a integridade dos
             dados, facilitando operações otimizadas para implementações futuras
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
+          <h3 className='project-name'>
+            Automação de Escrituração ISS Fortaleza
+          </h3>
+          <p className='project-description'>
+            Desenvolvi um robô para a escrituração de notas fiscais no sistema
+            ISS Fortaleza, utilizando Python e Selenium. A automação realiza
+            desde a extração de informações de uma planilha para alimentar o
+            robô e a inserção de dados, até a navegação no sistema para validar,
+            recusar ou confirmar notas, otimizando o processo manual e
+            tratamento de exceções para evitar falhas no fluxo.
           </p>
           <a
             href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'

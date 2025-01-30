@@ -13,13 +13,14 @@ function Experience() {
         <span className='date-range'>July 2024 - Current</span>
         <h3>Office Contábil - Developer - Fullstack</h3>
         <p>
-          Trabalho no desenvolvimento de um dashboard de clientes utilizando
-          React, Tailwind CSS e Node.js. Realizo automações com Python e
-          Selenium para extrair e gerenciar dados de cupons, como identificar
-          empresas próximas ao evento 380. Também implementei funcionalidades
-          como filtros por severidade, paginação personalizada e integração de
-          gráficos com dados financeiros, garantindo usabilidade e insights
-          práticos para o sistema.
+          Na Office Contábil, desenvolvi um dashboard de clientes utilizando
+          React, Tailwind CSS e Node.js, com funcionalidades como filtros por
+          severidade, paginação personalizada e gráficos integrados a dados
+          financeiros, proporcionando usabilidade para verificar os dados das
+          empresas. E também, realizo automações com Python e Selenium,
+          incluindo a extração e gestão de dados de cupons fiscais, geração de
+          relatórios e otimização de processos manuais, contribuindo para maior
+          eficiência nas operações
         </p>
       </div>
     </div>
