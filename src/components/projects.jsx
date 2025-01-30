@@ -86,13 +86,6 @@ function Projects() {
           <h2 className='projects-title'>
             <FaCode className='projects-icon' /> More projects developed
           </h2>
-          <a
-            href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <span className='tag'>Projeto →</span>
-          </a>
           <h3 className='project-name'>
             Automação de Escrituração ISS Fortaleza
           </h3>
@@ -104,6 +97,13 @@ function Projects() {
             recusar ou confirmar notas, otimizando o processo manual e
             tratamento de exceções para evitar falhas no fluxo.
           </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/autoInsert-data-into-database'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
           <h3 className='project-name'>
             Sistema de Inserção Automática de Dados
           </h3>
