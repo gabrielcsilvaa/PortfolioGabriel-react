@@ -19,9 +19,12 @@ function Skills() {
       <div className='category'>
         <h3>Frameworks:</h3>
         <div className='tags'>
+          <span className='tag'>Django</span>
+          <span className='tag'>Flask</span>
           <span className='tag'>React</span>
           <span className='tag'>Tailwind</span>
           <span className='tag'>NestJs</span>
+          <span className='tag'>NextJs</span>
         </div>
       </div>
       <div className='category'>
