@@ -10,8 +10,21 @@ function Experience() {
         </h2>
       </section>
       <div className='experience-item'>
-        <span className='date-range'>July 2024 - Current</span>
-        <h3>Office Contábil - Developer - Fullstack</h3>
+        <span className='date-range'>Jan 2025 - Current</span>
+        <h3>Assessoria Office Contábil - Desenvolvedor - BackEnd</h3>
+        <p>
+          Na Office Contábil como dev fullstack, Desenvolvi automações diárias
+          com Python integradas a órgãos como SEFAZ e ISS. Fui responsável pelo
+          backend de uma aplicação em Python/Django, conectada via ODBC a um
+          banco de dados Sybase legado, extraindo dados diretamente do sistema
+          Domínio e a automação reduziu drasticamente o tempo de execução de
+          tarefas fiscais e otimizou a gestão, substituindo relatórios manuais
+          por visualizações gerenciais eficientes
+        </p>
+      </div>
+      <div className='experience-item'>
+        <span className='date-range'>Jul 2024 - Jan 2025</span>
+        <h3>Assessoria Office Contábil - Estágio Desenvolvedor - Fullstack</h3>
         <p>
           Na Office Contábil, desenvolvi um dashboard de clientes utilizando
           React, Tailwind CSS e Node.js, com funcionalidades como filtros por
