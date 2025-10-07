@@ -82,7 +82,7 @@ function Projects() {
             e melhora a visibilidade dos indicadores corporativos.
           </p>
           <a
-            href='https://github .com/gabrielcsilvaa/gestao-office-back.git'
+            href='https://github.com/gabrielcsilvaa/gestao-office-back.git'
             target='_blank'
             rel='noopener noreferrer'
           >
