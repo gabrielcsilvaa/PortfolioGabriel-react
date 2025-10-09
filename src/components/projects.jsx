@@ -120,7 +120,7 @@ function Projects() {
             indicadores da empresa em um único ambiente confiável e acessível.
           </p>
           <a
-            href='https://github.com/DeveloperOffice/office-gestao-front.git'
+            href='https://github.com/gabrielcsilvaa/office-gestao-front'
             target='_blank'
             rel='noopener noreferrer'
           >
