@@ -66,6 +66,48 @@ function Projects() {
           <h2 className='projects-title'>
             <FaCode className='projects-icon' /> More projects developed
           </h2>
+          <h3 className='project-name'>Office gestao front</h3>
+          <p className='project-description'>
+            Desenvolvi uma aplicação full-stack para centralizar e gerenciar
+            dados internos da empresa, com backend em Django e frontend em
+            Next.js. O sistema consome dados do ERP contábil e organiza essas
+            informações em painéis interativos e segmentados por área, como
+            organização, demografia e fiscal, permitindo análises rápidas e
+            tomadas de decisão baseadas em dados reais. Toda a arquitetura foi
+            projetada para ser modular e escalável, com integração via APIs
+            REST, autenticação segura e estrutura preparada para crescimento
+            contínuo. O objetivo foi criar uma base sólida para consolidar os
+            indicadores da empresa em um único ambiente confiável e acessível.
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/office-gestao-front'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
+          <h3 className='project-name'>e-Kontroll React</h3>
+          <p className='project-description'>
+            No início da minha carreira como estagiário full stack, participei
+            do desenvolvimento do front-end do e-Kontroll React, uma aplicação
+            que consome a API do e-Kontroll para gerar insights valiosos e
+            dashboards interativos voltados a contadores. O sistema permite
+            visualizar riscos fiscais, como empresas próximas do sublimite do
+            Simples Nacional, além de acompanhar os eventos 379 e 380. Utilizei
+            React, TypeScript e Vite para construir interfaces integradas aos
+            endpoints da API e com atualizações em tempo real dos dados. O
+            resultado foi um dashboard funcional que ajuda escritórios contábeis
+            a antecipar problemas, identificar oportunidades e tomar decisões
+            mais inteligentes um projeto que marcou o início da minha paixão
+            pelo desenvolvimento front-end.
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/eKontroll-React'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
           <h3 className='project-name'>Gestão back end django</h3>
           <p className='project-description'>
             Desenvolvi o backend Gestão Office utilizando Django REST Framework,
@@ -101,26 +143,6 @@ function Projects() {
           </p>
           <a
             href='https://github.com/gabrielcsilvaa/RoboIssFortaleza.git'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <span className='tag'>Projeto →</span>
-          </a>
-          <h3 className='project-name'>Office gestao front</h3>
-          <p className='project-description'>
-            Desenvolvi uma aplicação full-stack para centralizar e gerenciar
-            dados internos da empresa, com backend em Django e frontend em
-            Next.js. O sistema consome dados do ERP contábil e organiza essas
-            informações em painéis interativos e segmentados por área, como
-            organização, demografia e fiscal, permitindo análises rápidas e
-            tomadas de decisão baseadas em dados reais. Toda a arquitetura foi
-            projetada para ser modular e escalável, com integração via APIs
-            REST, autenticação segura e estrutura preparada para crescimento
-            contínuo. O objetivo foi criar uma base sólida para consolidar os
-            indicadores da empresa em um único ambiente confiável e acessível.
-          </p>
-          <a
-            href='https://github.com/gabrielcsilvaa/office-gestao-front'
             target='_blank'
             rel='noopener noreferrer'
           >
