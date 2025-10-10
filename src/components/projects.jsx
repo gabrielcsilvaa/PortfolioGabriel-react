@@ -1,5 +1,6 @@
 import '../styles/projects.css';
 import { FaCode, FaGithub } from 'react-icons/fa';
+import { IoMdVideocam } from 'react-icons/io';
 import process from 'process';
 
 function Projects() {
@@ -62,6 +63,14 @@ function Projects() {
             rel='noreferrer'
           >
             <FaGithub className='github-icon' />
+          </a>
+          <a
+            href='https://drive.google.com/file/d/17n3PvmYCL4WBFBkaLZOCv7Ya_s8aClt5/view?usp=sharing'
+            target='_blank'
+            className='project-icon-link'
+            rel='noreferrer'
+          >
+            <IoMdVideocam className='video-icon' />
           </a>
           <h2 className='projects-title'>
             <FaCode className='projects-icon' /> More projects developed

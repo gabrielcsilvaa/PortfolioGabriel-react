@@ -70,6 +70,25 @@
   color: #000000;
 }
 
+.video-icon {
+  position: absolute;
+  top: 10px; 
+  right: -54px; /* Ajuste conforme necessário */
+  font-size: 29px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  padding: 8px;
+  align-items: end;
+  border-radius: 50%;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;}
+.video-icon:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000000;
+}
+
 .project-icon-link {
   text-decoration: none;
 }
