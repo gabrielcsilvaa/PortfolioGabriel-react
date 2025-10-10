@@ -6,6 +6,7 @@
 }
 
 .projects-title {
+  
   font-size: 24px;
   margin-bottom: 20px;
   display: flex;
@@ -40,13 +41,14 @@
   height: auto;
   max-width: 600px;
   margin: 0 auto 20px;
+  padding-bottom: 28px; 
 }
 
 .project-image {
   width: 112%;
   height: auto;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   object-fit: cover;
   align-items: end;
 }
@@ -70,23 +72,19 @@
   color: #000000;
 }
 
-.video-icon {
-  position: absolute;
-  top: 10px; 
-  right: -54px; /* Ajuste conforme necessário */
-  font-size: 29px;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
-  padding: 8px;
-  align-items: end;
-  border-radius: 50%;
-  transition:
-    transform 0.3s ease,
-    background-color 0.3s ease;}
-.video-icon:hover {
-  transform: scale(1.1);
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #000000;
+.tag-video {
+  background-color: #333;
+  color: #fff;
+  bottom: -12px;
+  padding: 6px 20px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  left: 40px; 
+}
+
+.tag-video:hover {
+  background-color: #555;
 }
 
 .project-icon-link {
