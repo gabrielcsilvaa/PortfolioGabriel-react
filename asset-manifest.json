@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PortfolioGabriel-react/static/css/main.8792c48a.css",
-    "main.js": "/PortfolioGabriel-react/static/js/main.d2366743.js",
+    "main.css": "/PortfolioGabriel-react/static/css/main.f06bdaf4.css",
+    "main.js": "/PortfolioGabriel-react/static/js/main.9a7cf944.js",
     "static/media/Poppins-Regular.ttf": "/PortfolioGabriel-react/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Bold.ttf": "/PortfolioGabriel-react/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "index.html": "/PortfolioGabriel-react/index.html",
-    "main.8792c48a.css.map": "/PortfolioGabriel-react/static/css/main.8792c48a.css.map",
-    "main.d2366743.js.map": "/PortfolioGabriel-react/static/js/main.d2366743.js.map"
+    "main.f06bdaf4.css.map": "/PortfolioGabriel-react/static/css/main.f06bdaf4.css.map",
+    "main.9a7cf944.js.map": "/PortfolioGabriel-react/static/js/main.9a7cf944.js.map"
   },
   "entrypoints": [
-    "static/css/main.8792c48a.css",
-    "static/js/main.d2366743.js"
+    "static/css/main.f06bdaf4.css",
+    "static/js/main.9a7cf944.js"
   ]
 }
