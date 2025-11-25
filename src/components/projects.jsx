@@ -73,6 +73,48 @@ function Projects() {
           <h2 className='projects-title'>
             <FaCode className='projects-icon' /> More projects developed
           </h2>
+          <h3 className='project-name'>Mobile Tracker Cripto front</h3>
+          <p className='project-description'>
+            O Mobile Crypto Tracker é um aplicativo mobile que eu desenvolvi
+            para ajudar usuários a visualizar, organizar e acompanhar o mercado
+            de criptomoedas de forma simples e prática. Desenvolvido em React
+            Native (Expo), ele se integra a um backend próprio que permite
+            sincronização de dados e gestão do portfólio. Caso queira ver uma
+            demonstração, assista ao{' '}
+            <a
+              href='https://drive.google.com/file/d/1XvvuRqqp_1Y7QjwG-eUgU-hDRdhkZGJz/view?usp=sharing'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='link-video'
+            >
+              Vídeo
+            </a>
+            .
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/Mobile-crypto-tracker-front'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
+          <h3 className='project-name'>Mobile Tracker Cripto back</h3>
+          <p className='project-description'>
+            O Crypto Tracker Back é uma API REST desenvolvida em Django + Django
+            REST Framework. o projeto gerencia autenticação com JWT, favoritos,
+            portfólio do usuário e consultas de preços em tempo real via
+            CoinGecko, além de alertas configuráveis. O projeto é totalmente
+            dockerizado, utilizando PostgreSQL, Redis e Celery para tarefas
+            assíncronas e atualização de preços. Conta também com documentação
+            automática via OpenAPI/Swagger e endpoint de health check.
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/Crypto-tracker-back'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
           <h3 className='project-name'>Office gestao front</h3>
           <p className='project-description'>
             Desenvolvi uma aplicação full-stack para centralizar e gerenciar
@@ -88,28 +130,6 @@ function Projects() {
           </p>
           <a
             href='https://github.com/gabrielcsilvaa/office-gestao-front'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <span className='tag'>Projeto →</span>
-          </a>
-          <h3 className='project-name'>e-Kontroll React</h3>
-          <p className='project-description'>
-            No início da minha carreira como estagiário full stack, participei
-            do desenvolvimento do front-end do e-Kontroll React, uma aplicação
-            que consome a API do e-Kontroll para gerar insights valiosos e
-            dashboards interativos voltados a contadores. O sistema permite
-            visualizar riscos fiscais, como empresas próximas do sublimite do
-            Simples Nacional, além de acompanhar os eventos 379 e 380. Utilizei
-            React, TypeScript e Vite para construir interfaces integradas aos
-            endpoints da API e com atualizações em tempo real dos dados. O
-            resultado foi um dashboard funcional que ajuda escritórios contábeis
-            a antecipar problemas, identificar oportunidades e tomar decisões
-            mais inteligentes um projeto que marcou o início da minha paixão
-            pelo desenvolvimento front-end.
-          </p>
-          <a
-            href='https://github.com/gabrielcsilvaa/eKontroll-React'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -132,6 +152,28 @@ function Projects() {
           </p>
           <a
             href='https://github.com/gabrielcsilvaa/gestao-office-back.git'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <span className='tag'>Projeto →</span>
+          </a>
+          <h3 className='project-name'>e-Kontroll React</h3>
+          <p className='project-description'>
+            No início da minha carreira como estagiário full stack, participei
+            do desenvolvimento do front-end do e-Kontroll React, uma aplicação
+            que consome a API do e-Kontroll para gerar insights valiosos e
+            dashboards interativos voltados a contadores. O sistema permite
+            visualizar riscos fiscais, como empresas próximas do sublimite do
+            Simples Nacional, além de acompanhar os eventos 379 e 380. Utilizei
+            React, TypeScript e Vite para construir interfaces integradas aos
+            endpoints da API e com atualizações em tempo real dos dados. O
+            resultado foi um dashboard funcional que ajuda escritórios contábeis
+            a antecipar problemas, identificar oportunidades e tomar decisões
+            mais inteligentes um projeto que marcou o início da minha paixão
+            pelo desenvolvimento front-end.
+          </p>
+          <a
+            href='https://github.com/gabrielcsilvaa/eKontroll-React'
             target='_blank'
             rel='noopener noreferrer'
           >

@@ -29,10 +29,16 @@
   margin-bottom: 10px;
 }
 
-.project-description {
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 15px;
+.project-description .link-video {
+  color: #4da3ff;       /* azulzinho */
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.project-description .link-video:hover {
+  text-decoration: none;
+  color: #82c0ff;       /* azul mais claro no hover */
 }
 
 .project-image-container {
@@ -83,11 +89,22 @@
   left: 40px; 
 }
 
+.tag-video2 {
+  background-color: #333;
+  color: #fff;
+  bottom: -12px;
+  padding: 6px 20px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 400; 
+  left: 40px;
+  }
+
 .tag-video:hover {
   background-color: #555;
 }
 
-.project-icon-link {
+a {
   text-decoration: none;
 }
 .autoral {
